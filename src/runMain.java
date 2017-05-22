@@ -22,6 +22,7 @@ public class runMain {
 			String line;
 
 			while ((line = reader.readLine()) != null) {
+				
 				byte ptext[] = line.getBytes(ISO_8859_1);
 				String newline = new String(ptext, UTF_8);
 				System.out.println(newline);
